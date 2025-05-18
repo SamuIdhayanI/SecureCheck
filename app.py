@@ -1,5 +1,5 @@
 import streamlit as st
-from dashboard import show_dashboard
+from home import show_dashboard
 from profound_insights import show_profound_insights
 from fundamental_insights import show_fundamental_insights
 from add_log import show_add_log
