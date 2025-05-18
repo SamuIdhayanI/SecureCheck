@@ -116,7 +116,17 @@ streamlit run app.py
 
 ## 📸 Dashboard Preview
 
-> *(You can add the screenshots here once you have them)*
+<img width="1680" alt="image" src="https://github.com/user-attachments/assets/1e6b2232-1176-4da0-a043-878fb3aa0cbe" />
+
+
+
+<img width="1680" alt="image" src="https://github.com/user-attachments/assets/53c92ec7-21a0-4065-bc7f-3a88d92c3a7c" />
+<img width="1680" alt="image" src="https://github.com/user-attachments/assets/e9455e89-5dc6-4964-a81c-fd529917b319" />
+
+
+
+<img width="1679" alt="image" src="https://github.com/user-attachments/assets/11ecec5a-d50c-4ab3-ba9a-b24973ef7d50" />
+<img width="1680" alt="image" src="https://github.com/user-attachments/assets/2dc2bb8a-ee1b-40a2-a2fa-44a21be79e95" />
 
 ---
 
