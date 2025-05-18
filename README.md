@@ -73,7 +73,7 @@ Manual logging of vehicle checks can lead to inefficiencies and missed threats. 
 * **Python** (Data processing, Streamlit app)
 * **MySQL** (Centralized database)
 * **Pandas** (Data manipulation)
-* **Matplotlib / Plotly / Seaborn** (Data visualization)
+* **Plotly** (Data visualization)
 * **Streamlit** (Frontend dashboard)
 
 ---
