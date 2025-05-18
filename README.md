@@ -15,7 +15,7 @@ Manual logging of vehicle checks can lead to inefficiencies and missed threats. 
 ## 🧾 Dataset
 
 - `traffic_stops_with_vehicle_number.csv`  
-  Contains real-world traffic stop data, including columns like:
+  Contains real-world traffic stop data, including columns:
   - `stop_date`, `stop_time`, `country_name`, `driver_gender`, `driver_age_raw`, `driver_age`, `driver_race`, `violation_raw`, `violation`, `search_conducted`, `search_type`, `stop_outcome`, `is_arrested`, `stop_duration`, `drugs_related_stop`, `vehicle_number`.
 
 ---
@@ -83,8 +83,7 @@ Manual logging of vehicle checks can lead to inefficiencies and missed threats. 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/securecheck.git
-cd securecheck
+git clone https://github.com/SamuIdhayanI/SecureCheck-A-Python-SQL-Digital-Ledger-for-Police-Post.git
 ```
 
 ### 2. Set Up Environment
