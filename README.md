@@ -83,7 +83,7 @@ Manual logging of vehicle checks can lead to inefficiencies and missed threats. 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/SamuIdhayanI/SecureCheck-A-Python-SQL-Digital-Ledger-for-Police-Post.git
+git clone https://github.com/SamuIdhayanI/SecureCheck.git
 ```
 
 ### 2. Set Up Environment
