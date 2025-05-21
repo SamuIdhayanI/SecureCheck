@@ -43,7 +43,7 @@ def show_add_log():
             (data['drugs_related_stop'] == drugs_related_stop_int)
         ]
         
-        # Use mode of matching data or default values
+        # Use mode of matching data
         if not filtered_data.empty:
             predicted_outcome = filtered_data['stop_outcome'].mode()[0]
             predicted_violation = filtered_data['violation'].mode()[0]
@@ -57,7 +57,7 @@ def show_add_log():
         except AttributeError:
             st.success("✅ Prediction complete. See summary below.")
         
-        # Display prediction results in an expander
+        # Display prediction results
         with st.expander("🚔 **View Prediction Summary**", expanded=False):
             st.markdown(f"**Violation:** {predicted_violation}")
             st.markdown(f"**Stop Outcome:** {predicted_outcome}")
