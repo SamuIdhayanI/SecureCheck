@@ -2,7 +2,7 @@ import streamlit as st
 from db_utils import fetch_data
 
 def show_dashboard():
-    # Inject custom CSS and Font Awesome
+    #  Custom CSS
     st.markdown("""
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -97,7 +97,7 @@ def show_dashboard():
     query = "SELECT * FROM traffic_stops"
     data = fetch_data(query)
 
-    # Prepare metrics
+    # Metrics
     total_stops = data.shape[0]
     total_arrests = data[data['stop_outcome'].str.contains("Arrest", case=False, na=False)].shape[0]
     tickets_issued = data[data['stop_outcome'].str.contains("Ticket", case=False, na=False)].shape[0]
