@@ -1,5 +1,5 @@
 # 🚨 SecureCheck: Digital Police Check Post Registry
-![Uploading image.png…]()
+<img width="1575" alt="image" src="https://github.com/user-attachments/assets/505e3574-771c-4c94-ae64-6f22a7b00ba1" />
 
 SecureCheck is an advanced digital police check post registry system designed to modernize and secure check post operations through real-time data analytics, centralized logging, and predictive insights. This project replaces inefficient manual systems with a robust SQL-backed architecture and a Python-powered Streamlit dashboard.
 
