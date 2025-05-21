@@ -89,7 +89,6 @@ def show_fundamental_insights():
             ORDER BY search_rate DESC
             LIMIT 5
             """,
-        # Time & Duration Based
         "What time of day sees the most traffic stops?": """
             SELECT 
                 CASE 
@@ -133,7 +132,6 @@ def show_fundamental_insights():
             GROUP BY time_segment
         """,
 
-        # Violation-Based
         "Which violations are most associated with searches or arrests?": """
             SELECT violation,
                 ROUND(SUM(CASE WHEN search_conducted = 1 THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 2) AS search_rate,
@@ -161,7 +159,6 @@ def show_fundamental_insights():
             ORDER BY violation
         """,
 
-        # Location-Based
         "Which countries report the highest rate of drug-related stops?": """
             SELECT country_name,
                 ROUND(SUM(CASE WHEN drugs_related_stop = 1 THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 2) AS drug_stop_rate
@@ -207,7 +204,7 @@ def show_fundamental_insights():
             "Which vehicles were most frequently searched?"
         ]:
             st.subheader("📊 Query Output")
-            st.dataframe(result[['vehicle_number']])  # Hide count column
+            st.dataframe(result[['vehicle_number']])
         else:
             st.subheader("📊 Query Output")
             st.dataframe(result)
@@ -252,7 +249,7 @@ def show_fundamental_insights():
         elif selected_question == "What time of day sees the most traffic stops?":
             fig = px.pie(result, names='time_of_day', values='stop_count',
                         title='Traffic Stops by Time of Day',
-                        hole=0.4)  # Makes it a donut chart
+                        hole=0.4)
             st.plotly_chart(fig)
 
         elif selected_question == "What is the average stop duration for different violations?":
