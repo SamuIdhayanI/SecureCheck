@@ -132,7 +132,6 @@ def show_profound_insights():
                 filtered_result = result.dropna(subset=["arrest_rate_percent"])
 
                 if not filtered_result.empty:
-                    # Convert year to string 
                     filtered_result["year"] = filtered_result["year"].astype(str)
 
                     fig2 = px.bar(
